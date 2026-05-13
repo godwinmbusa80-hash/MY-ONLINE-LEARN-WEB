@@ -44,14 +44,18 @@
     font-size: large;
 }
 .regform{
-    background-color: aquamarine;
-    padding-left: 29px;
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.account{
-    background-color: black;
-    color: white;
+.accountr{
+background-color: rgb(243, 138, 9);
+    color: rgb(156, 16, 16);
     font-size: large;
     font-weight: bold;
+    border-radius: 40px;
+    padding: 20px;
+    text-decoration: none;
 }
 .linktextr{
     color: white;
@@ -107,21 +111,29 @@
         <!--register form-->
         <section class="regform">
             <form>
-                <h2>Create Account</h2>
+                <h2 class="h2acct">Create Account</h2>
                 <div class="regborders">
+                    <h4>Enter your name</h4>
 <input type="text" placeholder="full name" required><br>
+<h4>Enter username</h4>
 <input type="text" placeholder="user email" required><br>
+<h4>Enter phone numb....</h4>
+<input type="number" placeholder="Mobile phone" required><br>
+<h4>Enter your date of birth</h4>
 <input type="text" placeholder="date of birth" required><br>
+<h4>Select gender</h4>
 <select>
     <option value="">Select Gender</option>
     <option value="male">Male</option>
     <option value="female">Female</option>
 </select><br>
+<h4>Choose a strong password</h4>
 <input type="password" placeholder="password" required ><br>
+<h4>Confirm your password</h4>
 <input type="password" placeholder="confirm password" required ><br>
        </div>    
 </form>
-<button class="account"><a href="index.html" class="linktextr">Register</a></button>
+<button class="accountr"><a href="index.html" class="linktextr">Register</a></button>
     <p>I already have an account. <a href="loginform.html" class="linktextl">Login here</a></p>
 </section>
      <!-- ================= FOOTER ================= -->
